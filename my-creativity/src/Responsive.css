@@ -1,0 +1,784 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  --first-div: #88ad3d;
+  --text: #545b5f;
+}
+body {
+  box-sizing: border-box;
+}
+.main {
+  width: 70vw;
+  height: 80vh;
+  margin-left: 40rem;
+  margin-top: 7rem;
+  position: relative;
+ 
+}
+.row .first-div {
+  width: 100%;
+  height: 80vh;
+  border-radius: 4rem;
+  background: var(--first-div);
+}
+.first-div .pdiv {
+ 
+  margin-top: 14rem;
+}
+.text-center img {
+  margin-top: 6.5rem;
+  width: 24rem;
+  height: 20rem;
+}
+
+.my-info h1 {
+  font-size: 3rem;
+}
+.my-info h4 {
+  font-size: 2rem;
+}
+/* .Icon-div{
+    position: absolute;
+    margin: 5rem 0 0 14rem;
+} */
+.Icon {
+  background: transparent;
+  color: white;
+  transform: scale(2);
+  margin-left: 3rem;
+  transition: 0.5s linear;
+}
+.Icon:hover {
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  transform: scale(2.5);
+}
+.btn {
+  /* position: absolute; */
+  /* margin-left: 8rem;
+    margin-top: 10rem; */
+}
+
+.btn button {
+  border-radius: 4rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.second-div {
+  width: 100%;
+  height:80vh;
+  background: #dcdad7;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+}
+.second-div .typed-text {
+  color: var(--first-div);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.second-div h4 {
+  color: var(--first-div);
+}
+.second-div .inter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+}
+.div2 p {
+
+  color: var(--text);
+  font-weight: 900;
+  line-height: 2.5rem;
+}
+.div2 .span-tx {
+  color: var(--first-div);
+ 
+ 
+}
+.div2 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.inter .div1 {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.inter .div1 p {
+  color: var(--text);
+  text-align: left;
+  line-height: 2.5rem;
+  word-spacing:.5rem ;
+  font-size: 1.9rem;
+ 
+  
+  
+}
+.div1 .info-sp {
+  color: var(--first-div);
+
+  word-spacing: 0.9rem;
+}
+.second-div .my-skill {
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 4rem;
+  
+  
+}
+
+.my-skill .div3 {
+  /* display: flex; */
+  /* flex-direction: row; */
+  position: relative;
+  width: 23rem;
+  height: 15rem;
+ 
+  margin-left: 1.5rem;
+  border: 0.1rem solid var(--first-div);
+  transition: all 0.5s linear;
+  overflow: hidden;
+  z-index: 1;
+}
+.div3 h1 {
+  color: var(--first-div);
+  font-size: 5rem;
+}
+/* .my-skill{
+    position: absolute;
+} */
+.div3 h5{
+  font-size: 2rem;
+}
+.div3 ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: var(--first-div);
+  transform: translateX(-100%);
+  transition: all 0.5s linear;
+  width: 100%;
+  height: 100%;
+}
+.div3 :hover:before {
+  transform: translateX(0%);
+  z-index: -1;
+}
+.div3:hover {
+  color: white;
+}
+.div3 h1:hover {
+  color: white;
+}
+.all-phone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.phone1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.phni {
+  color: var(--first-div);
+  transform: scale(2);
+}
+.phone3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.phone2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.phone4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bd {
+  padding: 5rem;
+  height: 15rem;
+  border: 0.1rem solid var(--first-div);
+  align-items: center;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 0.5s linear;
+
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bd ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: var(--first-div);
+  transform: translateY(-100%);
+  transition: all 0.5s linear;
+  width: 90%;
+  height: 100%;
+}
+.bd :hover:before {
+  transform: translateY(0%);
+  z-index: -1;
+}
+.bd :hover {
+  color: white;
+}
+.bd h6:hover {
+  color: white;
+}
+/* strarting skill div */
+.second-div .typed-text {
+  color: var(--my-common);
+  font-size: 4.5rem;
+  font-weight: bolder;
+}
+.second-div h4 {
+  color: #888277;
+  font-weight: bold;
+}
+.second-div2 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  flex-wrap: wrap;
+
+  background: #dcdad7;
+  border-radius: 4rem;
+
+  position: absolute;
+  float: right;
+  z-index: 1;
+}
+.skill-container {
+  background-color: transparent;
+ 
+  /* margin-top: 8rem;
+    margin-right: 22rem; */
+}
+.skill-container li {
+  list-style: none;
+  margin: 5rem 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.skill-container li::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  background-color: rgb(170, 167, 173);
+  width: 40rem;
+  height: 2.5rem;
+  border-radius: 100rem;
+}
+.skill-container li::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  background-color: rgb(249, 249, 250);
+  width: 0;
+  height: 2.5rem;
+  border-radius: 100rem;
+
+  animation: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  /* animation-iteration-count: inherit; */
+  /* animation-direction: forward; */
+  animation-fill-mode: forwards;
+}
+.skill-container li.html::after {
+  animation-name: html;
+}
+@keyframes html {
+  to {
+    width: 37rem;
+    background-color: orangered;
+  }
+}
+.skill-container li.css::after {
+  animation-name: css;
+}
+@keyframes css {
+  to {
+    width: 35rem;
+    background-color: rgb(13, 135, 172);
+  }
+}
+.skill-container li.js::after {
+  animation-name: js;
+}
+@keyframes js {
+  to {
+    width: 30rem;
+    background-color: rgb(9, 175, 167);
+  }
+}
+.skill-container li.bootstrap::after {
+  animation-name: bootstrap;
+}
+@keyframes bootstrap {
+  to {
+    width: 35rem;
+    background-color: rgb(34, 64, 199);
+  }
+}
+.skill-container li.java::after {
+  animation-name: java;
+}
+@keyframes java {
+  to {
+    width: 35rem;
+    background-color: #ccae07;
+  }
+}
+.skill-container li.jquery::after {
+  animation-name: jquery;
+}
+@keyframes jquery {
+  to {
+    width: 27rem;
+    background-color: #ac20c5;
+  }
+}
+.last{
+  width: 10rem;
+  height: 40rem;
+  background: var(--first-div);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 10rem;
+  border-radius: 5rem;
+}
+.my-nav{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.home{
+  color: white;
+  transform: scale(2.5);
+  margin-top: 6rem;
+ 
+ 
+}
+.may{
+  display: none;
+}
+/* contact-responsive */
+
+.tool{
+  /* style={{fontSize:'2rem',position:'absolute',left:'.5rem',top:'9rem'}} */
+
+  font-size: 2rem;
+  position: absolute;
+  left: -1rem;
+  top:20rem ;
+  /* visibility: hidden; */
+  color: var(--first-div);
+  background: white;
+  padding: .4rem;
+  display: none;
+  
+  
+}
+.home:hover .tool{
+ display: block;
+
+}
+@media (max-width: 1600px) {
+  html {
+    font-size: 50%;
+  }
+  .first-div .pdiv{
+    margin-top: 18rem;
+  }
+}
+@media (max-width: 1351px) {
+  html {
+    font-size: 43%;
+  }
+  .first-div .pdiv{
+    margin-top: 30rem;
+  }
+}
+
+@media (max-width: 1201px) {
+  html {
+    font-size: 40%;
+  }
+  .first-div .pdiv{
+    margin-top: 38rem;
+  }
+}
+
+@media (max-width: 1040px) {
+  html {
+    font-size: 38%;
+  }
+  .first-div .pdiv{
+    margin-top: 43rem;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 31%;
+  }
+  .first-div .pdiv{
+    margin-top: 85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 30%;
+   
+  }
+ 
+  .first-div .pdiv{
+    margin-top: 75rem;
+  }
+  .my-skill .div3 {
+    padding: 2rem;
+    width: 45rem;
+    height: 30rem;
+}
+.div3 h1 {
+  
+  font-size: 6rem;
+}
+.div3 h5{
+  font-size: 4rem;
+}
+.my-skill .smm {
+  margin-right: 2rem;
+}
+.div2 h1 {
+  font-size: 5rem;
+  /* font-weight: bold; */
+}
+.inter .div1 p {
+  text-align: left;
+  line-height: 4.4rem;
+  word-spacing: .8rem;
+  font-size: 3.6rem;
+  padding: .5rem;
+}
+.div2 p {
+  /* color: var(--darkreader-text--text); */
+  font-size: 2.5rem;
+  word-spacing: .5rem;
+  line-height: 3rem;
+}
+.last {
+  color: rgb(220, 218, 215);
+  background: var(--darkreader-bg--first-div);
+  display: none;
+}
+.main {
+  width: 100%;
+  height: 100%;
+ margin-top: 0px;
+ margin-left: 0px;
+  position: relative;
+  
+ 
+}
+.mt-5, .my-5 {
+  margin-top: 18rem;
+}
+.my-info {
+  margin-top: 10rem;
+}img.rounded-circle {
+  margin-top: 12rem;
+}
+.row .first-div{
+  display: none;
+}
+.may{
+  display: block;
+  width:80rem;
+ 
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+  transition: all .5s;
+  z-index: 2;
+}
+.may button{
+  background-color: var(--first-div);
+  padding: 2.5rem;
+  border-radius: 4rem;
+  border: none;
+  outline: none;
+}
+
+.may button .hmI{
+  font-size: 3.5rem;
+  color: white;
+  border: none;
+  outline: none;
+}
+.collapse ul{
+  background: var(--first-div);
+  color: white;
+  border-radius: 5rem;
+ display: flex;
+ transition:all .1s linear;
+ padding-bottom: 10rem;
+
+}
+.collapse ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 5rem;
+  font-size: 4rem;
+  color: white;
+  
+}
+ul li:hover{
+  background: rgb(120, 214, 12);
+  
+}
+.collapse .nal{
+  color: white;
+  
+}
+.collapse .home2{
+  font-size: 2.5rem;
+  margin-right: 8rem;
+  text-align: left;
+  transform: scale(2.5);
+}
+  /* .row .first-div {
+    width: 100%;
+    height: 80vh;
+    /* border-radius: 4rem; */
+    /* background: var(--first-div); */
+  /* } */ 
+  /* .second-div {
+    position: relative;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.navbar button {
+  background-color: var(--first-div);
+  padding: 1rem;
+  border-radius: 3rem;
+  color: white;
+  border: none;
+  outline: none;
+  position: absolute;
+ 
+  top: 7rem;
+  right: 20rem;
+  position: fixed;
+
+  z-index: 2;
+}
+  nav ul {
+       position: absolute;
+       width: 50rem;
+       height: 30rem;
+      background: var(--first-div);
+      border-radius: 5rem;
+      transition: .2s;
+      position: fixed;
+      z-index: 2;
+    }
+  .first-div {
+    display: none;
+  } */
+  /* .second-div{
+     margin-bottom: 5rem;
+  } */
+  .second-div {
+    width: 100%;
+    height: 100vh;
+    background: #dcdad7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+}
+.bd {
+  padding: 5rem;
+  height: 15rem;
+  border: 0.1rem solid var(--first-div);
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  position: relative;
+  transition: all 0.5s linear;
+  overflow: hidden;
+  z-index: 1;
+}
+  
+.skill-container li::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  background-color: rgb(170, 167, 173);
+  width: 70rem;
+  height: 4.5rem;
+  border-radius: 100rem;
+}
+.skill-container li::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  background-color: rgb(249, 249, 250);
+  width: 0;
+  height: 4.5rem;
+  border-radius: 100rem;
+
+  animation: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  /* animation-iteration-count: inherit; */
+  /* animation-direction: forward; */
+  animation-fill-mode: forwards;
+}
+.skill-container li.html::after {
+  animation-name: html;
+}
+@keyframes html {
+  to {
+    width: 67rem;
+    background-color: orangered;
+  }
+}
+.skill-container li.css::after {
+  animation-name: css;
+}
+@keyframes css {
+  to {
+    width: 65rem;
+    background-color: rgb(13, 135, 172);
+  }
+}
+.skill-container li.js::after {
+  animation-name: js;
+}
+@keyframes js {
+  to {
+    width: 60rem;
+    background-color: rgb(9, 175, 167);
+  }
+}
+.skill-container li.bootstrap::after {
+  animation-name: bootstrap;
+}
+@keyframes bootstrap {
+  to {
+    width: 65rem;
+    background-color: rgb(34, 64, 199);
+  }
+}
+.skill-container li.java::after {
+  animation-name: java;
+}
+@keyframes java {
+  to {
+    width: 65rem;
+    background-color: #ccae07;
+  }
+}
+.skill-container li.jquery::after {
+  animation-name: jquery;
+}
+@keyframes jquery {
+  to {
+    width: 57rem;
+    background-color: #ac20c5;
+  }
+}
+.skills-div {
+  margin-right: 30rem;
+}
+.skill-container li {
+  margin-top: 15rem;
+}
+.skills-div h1{
+  font-size: 7rem;
+  display: block;
+  margin-left: 25rem;
+}
+.skills-div h4{
+  font-size: 3.3rem;
+}
+}
+@media (max-width: 525px) {
+  html {
+    font-size: 25%;
+  }
+  .first-div .pdiv{
+    margin-top: 98rem;
+  }
+  
+}
+@media (max-width: 425px) {
+  html {
+    font-size: 20%;
+  }
+  .first-div .pdiv{
+    margin-top: 118rem;
+  }
+}
+
+/* nav--------- */

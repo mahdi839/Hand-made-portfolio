@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Hand-made-portfolio/static/css/main.431acefe.chunk.css",
+    "main.js": "/Hand-made-portfolio/static/js/main.98f4b1a9.chunk.js",
+    "main.js.map": "/Hand-made-portfolio/static/js/main.98f4b1a9.chunk.js.map",
+    "runtime-main.js": "/Hand-made-portfolio/static/js/runtime-main.71acd928.js",
+    "runtime-main.js.map": "/Hand-made-portfolio/static/js/runtime-main.71acd928.js.map",
+    "static/js/2.bb75ddf0.chunk.js": "/Hand-made-portfolio/static/js/2.bb75ddf0.chunk.js",
+    "static/js/2.bb75ddf0.chunk.js.map": "/Hand-made-portfolio/static/js/2.bb75ddf0.chunk.js.map",
+    "static/js/3.9d4074ec.chunk.js": "/Hand-made-portfolio/static/js/3.9d4074ec.chunk.js",
+    "static/js/3.9d4074ec.chunk.js.map": "/Hand-made-portfolio/static/js/3.9d4074ec.chunk.js.map",
+    "index.html": "/Hand-made-portfolio/index.html",
+    "static/css/main.431acefe.chunk.css.map": "/Hand-made-portfolio/static/css/main.431acefe.chunk.css.map",
+    "static/js/2.bb75ddf0.chunk.js.LICENSE.txt": "/Hand-made-portfolio/static/js/2.bb75ddf0.chunk.js.LICENSE.txt",
+    "static/media/pic.0c005143.png": "/Hand-made-portfolio/static/media/pic.0c005143.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71acd928.js",
+    "static/js/2.bb75ddf0.chunk.js",
+    "static/css/main.431acefe.chunk.css",
+    "static/js/main.98f4b1a9.chunk.js"
+  ]
+}
